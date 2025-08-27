@@ -22,6 +22,13 @@ This project demonstrates an **OpenAI Voice Agent** that supports **speech-to-sp
 - Microphone toggle to start/stop audio capture.
 - Session lifecycle management (start/stop, cleanup).
 
+## 📁 Repository Structure
+
+| Component | Location | Purpose |
+|-----------|----------|---------|
+| **realtime-voice-agent** | This repo | Complete frontend + WebRTC integration |
+| **Backend** | [voice-agent-core](https://github.com/ChaiKeshab/voice-agent-core) | Backend API with batch + realtime endpoints |
+
 ## Tech Stack
 
 - **React** (UI + hooks)
